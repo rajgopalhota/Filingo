@@ -1,0 +1,73 @@
+# Filingo - Decentralized File Storage and Sharing Platform
+
+## Introduction
+Filingo is a decentralized file storage and sharing platform built on web3 technologies, utilizing Next.js for the frontend, Express.js for the backend, and MongoDB for the database. This project integrates blockchain for secure file management, decentralized identity for user authentication, and IPFS for content storage.
+
+## Tech Stack
+- **Frontend:**
+  - **Next.js:** A React-based framework for building server-rendered web applications.
+
+- **Backend:**
+  - **Express.js:** A minimal and flexible Node.js web application framework for building robust backend systems.
+
+- **Database:**
+  - **MongoDB:** A NoSQL database for storing file metadata and user information.
+
+- **Decentralized Storage:**
+  - **IPFS (InterPlanetary File System):** Utilized for decentralized and secure file storage.
+
+- **User Authentication and Decentralized Identity:**
+  - **uPort:** Integrated for user authentication and decentralized identity management.
+
+## Project Components
+### Frontend
+- **Pages:**
+  - Index: Landing page and file upload interface.
+  - Dashboard: User-specific file management and sharing interface.
+  - FileDetails: Page displaying file information, sharing options, and access controls.
+
+- **Components:**
+  - FileUpload: Component for handling file uploads.
+  - FileList: Displays a list of user files.
+  - ShareOptions: Component for managing file sharing options.
+
+### Backend
+- **Express.js Routes:**
+  - `/api/upload`: Handles file uploads and stores metadata in MongoDB.
+  - `/api/files`: Retrieves and manages user files from MongoDB.
+
+- **MongoDB Schema:**
+  - `User`: Stores user information.
+  - `File`: Stores file metadata, including IPFS hash, ownership, and access permissions.
+
+### Smart Contracts (Optional)
+Smart contracts can be implemented in the future for additional features like token incentives.
+
+## Features
+1. **File Upload and Storage:**
+   - Users can securely upload files, with metadata stored in MongoDB.
+   - IPFS stores the actual file content.
+
+2. **Decentralized Sharing:**
+   - Users can share files securely with others, managing access controls through smart contracts.
+
+3. **User Authentication:**
+   - uPort integration ensures decentralized and secure user authentication.
+
+## Security Measures
+1. **Encryption:**
+   - Files are encrypted before being stored on IPFS to enhance privacy.
+
+2. **Access Controls:**
+   - Smart contracts enforce access controls to prevent unauthorized access to files.
+
+## Documentation
+[Link to GitHub repository containing detailed documentation and setup instructions]
+
+## Deployment
+- Deploy the Next.js frontend on a hosting platform.
+- Deploy the Express.js backend and MongoDB on suitable server infrastructure.
+- Integrate with Ethereum testnets for smart contract testing (if applicable).
+
+## Conclusion
+Filingo demonstrates the power of web3 technologies, combining Next.js, Express.js, MongoDB, and decentralized solutions for building a secure and user-centric decentralized file storage and sharing platform.

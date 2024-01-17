@@ -1,0 +1,16 @@
+{
+  "name": "filingo",
+  "version": "1.0.0",
+  "description": "Filingo is a decentralized file storage and sharing platform built on web3 technologies, utilizing Next.js for the frontend, Express.js for the backend, and MongoDB for the database. This project integrates blockchain for secure file management, decentralized identity for user authentication, and IPFS for content storage.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.1.0"
+  }
+}
